@@ -1,0 +1,158 @@
+body{
+	text-align: center;
+}
+
+#principal{
+	margin: auto;
+	position:relative;
+	width: 1000px;
+	height: 2000px;
+	background-color:green;
+}
+header{
+	position:absolute;
+	width: 100%;
+	height: 170px;
+	background-image: url(../img/top_gradiente_s1.png);
+	background-repeat: repeat-x;
+}
+#logo{
+	position: absolute;
+	width: 166px;
+	height: 76px;
+	left:54px;
+	top:36px;
+	background-image: url(../img/logo_s1.png);
+	background-repeat: no-repeat;
+}
+.centralizar{
+	margin: auto;
+	position: relative;
+	width:1000px;
+	
+}
+#areaBusca{
+	position: absolute;
+	width: 420px;
+	height: 38px;
+	background-color:#00fe0F3;
+	left: 268px;
+	top: 57px;
+}
+
+#areaBuscaEsq{
+	position: absolute;
+	width: 15px;
+	height: 38px;
+	background: black url(../img/buscar_esquerda_s1.png);
+	background-repeat: no repeat;
+}
+#areaBuscaCen{
+	position: absolute;
+	width: 390px;
+	height: 38px;
+	left:15px;
+	background: black url(../img/buscar_centro_s1.png);
+	background-repeat: repeat-x;
+}
+#areaBuscaDir{
+	position: absolute;
+	width: 16px;
+	height: 38px;
+	left: 405px;
+	background: black url(../img/buscar_direita_s1.png);
+	background-repeat: no repeat;
+}
+#labelBuscar{
+	position: absolute;
+	font-family:Arial, Helvertica, sans-serif;
+	font-size:16px;
+	font-weight: bold;
+	color:#666;
+	top:8px;
+	width: 60px;
+}
+#areaInputBuscar{
+	position: absolute;
+	width:235px;
+	height: 29px;
+	left:90px;
+	background-color: blue;
+	top:5px;
+}
+#areaInputBuscarEsq{
+	position:absolute;
+	width:25px;
+	height:29px;
+	background: black url(../img/caixa_de_texto_esquerda_s1.png);
+}
+#areaInputBuscarCen{
+	position: absolute;
+	width:214px;
+	height:29px;
+	left:10px;
+	background: black url(../img/caixa_de_texto_centro_s1.png);
+}
+#areaInputBuscarDir{
+	position:absolute;
+	width:11px;
+	height:29px;
+	left:224px;
+	background: black url(../img/caixa_de_texto_direita_s1.png);
+}
+#caixaTexto{
+	position: absolute;
+	width:214px;
+	height:23px;
+	top:2px;
+	left:0px;
+	border:0px;
+}
+input:focus{
+	outline: none;
+}
+#botaoBuscar{
+position:absolute;
+width:45px;
+height:26px;
+left: 350px;
+top:5px;
+background: black url(../img/botao_buscar_s1.png);
+cursor:pointer;
+}
+#botaoCarrinho{
+position:absolute;
+width:173px;
+height:79px;
+left:800px;
+top:34px;
+background: black url(../img/carinho_s1.png);
+cursor:pointer;
+}
+#menuHeader{
+position:absolute;
+width:100%;
+height:30px;
+top:131px;
+left:280px;
+}
+.ulSemEstilo{
+	list-style-type: none;
+}
+.liHorizontal{
+	display: inline-block; 
+	padding-left: 20px;
+}
+.fontMenu{
+	font-family:Arial, Helvertica, sans-serif;
+	font-size:14px;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.fontMenu:haver{
+	color:black;
+	text-decoration: underline;
+}

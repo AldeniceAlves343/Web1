@@ -1,0 +1,117 @@
+
+#quadroRodape{	
+    width: 1008px;
+    height: 383px;
+    margin-top:1778px;
+    left: -8px;
+    border-color: rgb(153,153,153);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    background: black url(../img/rodape.png);
+  
+}
+
+#areaBusca1{
+	position: absolute;
+	width: 420px;
+	height: 38px;
+	background-color:#00fe0F3;
+	left: 268px;
+	top: 57px;
+}
+
+#areaBuscaEsq1{
+	position: absolute;
+    width: 15px;
+    height: 38px;
+    top: 0px;
+    left: 1px;
+    background: black url(../img/buscar_esquerda_s1.png);
+    
+}
+#areaBuscaCen1{
+	position: absolute;
+    width: 964px;
+    height: 38px;
+    left: 16px;
+    top: 0px;
+    background: black url(../img/buscar_centro_s1.png);
+    background-repeat: repeat-x;
+}
+#areaBuscaDir1{
+	 position: absolute;
+    width: 16px;
+    height: 38px;
+    left: 980px;
+    top: 1px;
+    background: black url(../img/buscar_direita_s1.png);
+    background-repeat: no repeat;
+}
+#labelBuscar1{
+	position: absolute;
+	font-family:Arial, Helvertica, sans-serif;
+	font-size:16px;
+	font-weight: bold;
+	color:#666;
+	top:8px;
+	width: 60px;
+}
+#areaInputBuscar1{
+	position: absolute;
+	width:235px;
+	height: 29px;
+	left:90px;
+	top:5px;
+}
+#areaInputBuscarEsq1{
+    position: absolute; 
+    width: 9px;
+    height: 29px;
+    background: black url(../img/caixa_de_texto_esquerda_s1.png);
+}
+#areaInputBuscarCen1{
+	position: absolute;
+	width:771px;
+	height:29px;
+	left:10px;
+	background: black url(../img/caixa_de_texto_centro_s1.png);
+}
+#areaInputBuscarDir1{
+	position: absolute;
+    width: 11px;
+    height: 29px;
+    left: 740px;
+    background: black url(../img/caixa_de_texto_direita_s1.png);
+}
+#caixaTexto1{
+	position: absolute;
+    width: 731px;
+    height: 24px;
+    top: 2px;
+    left: 9px;
+    border: 0px;;
+}
+input:focus{
+	outline: none;
+}
+#botaoBuscar1{
+position: absolute;
+    width: 45px;
+    height: 26px;
+    left: 810px;
+    top: 0px;
+    background: black url(../img/botao_buscar_s1.png);
+    cursor: pointer;
+}
+#busc{
+   position: absolute;
+    width: 999px;
+    height: 40px;
+    top: 2248px;
+    left: 11px;
+    border-color: rgb(153,153,153);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+}

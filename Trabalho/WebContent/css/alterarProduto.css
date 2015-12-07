@@ -1,0 +1,201 @@
+body{
+	margin: auto;
+    width: 1000px;
+    height: 100%;
+    position: relative;
+}
+
+.centralizar2{
+	position: absolute;
+	width: 100%;
+	height: 166px;
+	background-image:url(../img/nm1.jpg);
+	border-color: rgb(153,153,153);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+}
+#corpo{
+	position: absolute;
+    width: 100%;
+    height: 620px;
+    top: 168px;
+    left: 1px;
+    border-color: rgb(153,153,153);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+}
+#rodape {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    top: 790px;
+    left: 1px;
+    background-image: url(../img/nm1.jpg);
+}
+.quadroTexto1 {
+    position: relative;
+    width: 650px;
+    height: 96px;
+    top: 8px;
+    left: 187px;
+    background: pink;
+    border-color: rgb(153,153,153);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+   background-image:url(../img/img2.jpg); 
+}
+
+.quadroTexto2 {
+    position: relative;
+    width: 645px;
+    height: 59px;
+    top: 338px;
+    left: 191px;
+    
+}
+
+.botao {
+    position: relative;
+    width: 146px;
+    height: 43px;
+    top: 174px;
+    left: 741px;
+    background: pink;
+    cursor: pointer;
+    border-color: rgb(153,153,153);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+}
+.texto1 {
+    position: absolute;
+    width: 177px;
+    height: 16px;
+    left: 100px;
+    top: 7px;
+    margin-left: 1px;
+    margin-top: -9px;
+    font-size: 45px;
+}
+.nome1 {
+    position: relative;
+    width: 585px;
+    height: 43px;
+    left: -9px;
+    top: -53px;
+}
+.nome2 {
+    position: relative;
+    width: 588px;
+    height: 41px;
+    top: 153px;
+    left: 175px;
+}
+.nome3 {
+    position: relative;
+    width: 588px;
+    height: 41px;
+    top: 235px;
+    left: 177px;
+}
+
+.nome4 {
+    position: relative;
+    width: 588px;
+    height: 41px;
+    top: 257px;
+    left: 174px;
+}
+
+#botaoEnviar{
+	position: relative;
+    width:0px;
+    height:0px;
+    top: 0px;
+    left:07px;
+    font-size: 34px;
+}
+#caixa{
+	position: relative;
+    width: 641px;
+    height: 50px;
+    top: 215px;
+    left: 195px;
+}
+#caixa1 {
+    position: relative;
+    width: 628px;
+    height: 50px;
+    top: -168px;
+    left: 137px;
+}
+#caixa2 {
+    position: relative;
+    width: 601px;
+    height: 54px;
+    top: -167px;
+    left: 171px;
+}
+#Categoria {
+    position: absolute;
+    width: 17px;
+    height: 16px;
+    left: 23px;
+    top: 24x;
+    margin-left: -13px;
+    margin-top: -164px;
+    font-size: 29px;
+}
+#SubCategoria {
+    position: absolute;
+    width: 17px;
+    height: 16px;
+    left: 16px;
+    top: 24x;
+    margin-left: -11px;
+    margin-top: -160px;
+    font-size: 29px;
+}
+#Descricao {
+    position: absolute;
+    width: 17px;
+    height: 16px;
+    left: 23px;
+    top: 24x;
+    margin-left: 20px;
+    margin-top: 231px;
+    font-size: 29px;
+}
+#Nome {
+    position: absolute;
+    width: 17px;
+    height: 16px;
+    left: 23px;
+    top: 24x;
+    margin-left: 53px;
+    margin-top: 222px;
+    font-size: 29px;
+}
+#vanterior {
+    position: absolute;
+    width: 17px;
+    height: 16px;
+    left: 23px;
+    top: 24x;
+    margin-left: 53px;
+    margin-top:347px;
+    font-size: 29px;
+}
+#vatual {
+    position: absolute;
+    width: 17px;
+    height: 16px;
+    left: 23px;
+    top: 24x;
+    margin-left: 74px;
+    margin-top: 420px;
+    font-size: 29px;
+}

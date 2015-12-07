@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<link rel = "stylesheet" href = "css/alterarProduto.css">
+	<!--  <link rel = "stylesheet" href = "css/cadastroCategoria.css">-->
+</head>
+	  
+	<body>
+		<header class = "centralizar2">
+			<div class = "quadroTexto1">
+			<div class = "texto1">
+			  Cadastrar Produto
+			</div>
+			</div>
+		</header>
+		<section id  = "corpo" class = "centralizar2">
+		<form action="core.rb" method="POST">
+		  <div id = "Nome">Nome:</div>
+		  <div id = "vanterior">Valor anterior:</div>
+		  <div id = "vatual">Valor atual:</div>
+			<div class = "quadroTexto2">
+				<input class = "nome1"  type = "text"></br>
+			</div>
+			<div id = "Descricao">Descrição:</div>
+			<div class = "quadroTexto3">
+				<input class = "nome2"  type = "text"></br>
+			</div>
+			 </br>
+			    <input class = "nome3" type = "text"></br>
+			    <input class = "nome4" type = "text"></br>
+			<div id = "Categoria">Categoria:</div><select id = "caixa1"></select>
+			</br>
+			</br>
+			<div id = "SubCategoria">Subcategoria:</div><select id = "caixa2"></select>
+		<!--  	imagem : <input type  = "file">;-->
+			<div class = "botao">
+					 <div id = "botaoEnviar"> Cadastrar </div>
+			</div>
+			<script src = "JS/alterarProduto.js"></script>
+		
+		</form>
+		</section>
+  		<footer class = "centralizar2" id = "rodape"></footer>	  	
+	</body>		
+</html>

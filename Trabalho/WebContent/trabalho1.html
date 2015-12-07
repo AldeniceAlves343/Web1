@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<link rel = "stylesheet" href = "css/estilo2.css">
+	
+<title>Insert title here</title>
+</head>
+	<body>
+		 <form action="index.html" method = "GET">
+				Digite seu nome:</br>
+			<input type="text" id = "nome" value = "" ></br>
+				Digite sua idade:</br>
+			<input  type="text" id  = "idade" value =""></br>
+			<input type = "submit"  value ="enviar">
+			<select id = "caixa" name = "caixaSelecao">
+				
+			</select>
+			
+		<!--  	<script src="JS/teste1.js"></script> -->  
+			<script src="JS/curso.js"></script>
+			<script src="JS/teste3.js"></script>
+			<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+			<script>
+				$(document).ready(function(){
+					$("#caixa").change(function(){
+						console.log("mudou");
+					});
+				});
+			</script>
+		
+			<div id = "imagem_camera"></div>
+			 
+		</form> 
+			
+	</body>
+</html>

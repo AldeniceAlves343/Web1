@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<link rel = "stylesheet" href = "css/subcategoria.css">
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script >
+	
+</head>
+	  
+	<body>
+		<header class = "centralizar2">
+			<div class = "quadroTexto1">
+			<div class = "texto1">
+				Cadastrar Subcategoria
+			</div>
+			</div>
+		</header>
+		<section id  = "corpo" class = "centralizar2">
+		<div id="carregando"></div>
+		<form action="core.rb" method="POST">
+			<div id = "quadroNomeCat">
+				<div id = "nomeCat"> Categoria</div>
+			   </div>
+			   <div id = "quadroNomeSub">
+				<div id = "nomeSub"> Subcategoria</div>
+			   </div>
+			<div class = "quadroTexto2">
+		       <div id = "nome">Nome: </div>	 
+		    </div>
+				<input id = "nome1"  type = "text"></br>
+			
+			 <select id = "caixa" name = "caixaselecao"></select>
+			<div id = "botao">
+				<div id = "botaoEnviar">Cadastrar</div>
+			</div>
+			</div>
+			 <div class = "botaoAlterar">
+			<a href = "menu.html">  <div id = "botaoAlterar">Menu</div></a>
+			</div>
+			<script src = "JS/subcategoria.js"></script>
+			<script>
+			
+			$(document).ready(function(){
+				$("#caixa").change(function(){
+					console.log("mudou");
+				});
+			});
+			</script>
+		</form>
+		 <table  id = "tabela" width = "50%"border = "1">
+			<tr> 
+				<td> id</td>
+				<td> Nome</td>
+				<td> Descrição</td>
+				<td> Valor</td>
+			<td> <a href = "alterarProduto.html">alterar</a></td>
+			<td> <a onclick = "excluir_registro()">excluir</a></td>
+			</tr>
+			<tr> 
+				<td> 1</td>
+				<td> Celular</td>
+				<td> Motorola</td>
+				<td> R$300,00</td>
+					<td> <a href = "alterarProduto.html">alterar</a></td>
+				<td> <a onclick = "excluir_registro()">excluir</a></td>
+			</tr>
+			<tr> 
+				<td> 2</td>
+				<td> Notebook</td>
+				<td> Positivo</td>
+				<td> R$1000,00</td>
+					<td> <a href = "alterarProduto.html">alterar</a></td>
+				<td> <a onclick = "excluir_registro()">excluir</a></td>
+			</tr>
+			<tr> 
+				<td> 2</td>
+				<td> Notebook</td>
+				<td> Positivo</td>
+				<td> R$1000,00</td>
+					<td> <a href = "alterarProduto.html">alterar</a></td>
+				<td> <a onclick = "excluir_registro()">excluir</a></td>
+			</tr>
+			<tr> 
+				<td> 2</td>
+				<td> Notebook</td>
+				<td> Positivo</td>
+				<td> R$1000,00</td>
+					<td> <a href = "alterarProduto.html">alterar</a></td>
+				<td> <a onclick = "excluir_registro()">excluir</a></td>
+			</tr>	
+	</table>
+	   
+			
+	</table>
+		</section>
+		<script src = "JS/excluir.js"></script>
+  		<footer class = "centralizar2" id = "rodape"></footer>	  	
+	</body>		
+</html>

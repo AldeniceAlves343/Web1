@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<link rel = "stylesheet" href = "css/cadastroProduto.css">
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script >
+	
+</head>
+	  
+	<body>
+		<header class = "centralizar2">
+			<div class = "quadroTexto1">
+			<div class = "texto1">
+			  Cadastrar Produto
+			</div>
+			</div>
+		</header>
+		<section id  = "corpo" class = "centralizar2">
+		<div id="carregando"></div>
+		<form action="core.rb" method="GET">
+		 
+		  <div id = "vanterior">Valor anterior:</div>
+		  <div id = "vatual">Valor atual:</div>
+			
+			<div id = "Descricao">Nome:</div>
+			<div class = "quadroTexto3">
+				<input id = "nome2"  type = "text"></br>
+			</div>
+			 </br>
+			    <input id = "nome3" type = "text"></br>
+			    <input id = "nome4" type = "text"></br>
+			<div id = "Categoria">Categoria:</div><select id = "caixa1"></select>
+			</br>
+			</br>
+			<div id = "SubCategoria">Subcategoria:</div><select id = "caixa2"></select>
+		<!--  	imagem : <input type  = "file">;-->
+			<div id = "botao">
+					 <div id = "botaoEnviar"> Cadastrar </div>
+			</div>
+			 <div class = "botaovoltar">
+			<a href = "tabelaProduto.html">  <div id = "botaovoltar">voltar</div></a>
+			</div>
+			<script src = "JS/cadastroProduto.js"></script>
+		
+		</form>
+		</section>
+  		<footer class = "centralizar2" id = "rodape"></footer>	  	
+	</body>		
+</html>

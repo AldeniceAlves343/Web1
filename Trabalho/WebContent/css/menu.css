@@ -1,0 +1,119 @@
+body{
+	margin: auto;
+    width: 1000px;
+    height: 100%;
+    position: relative;
+}
+
+.centralizar2{
+	position: absolute;
+	width: 100%;
+	height: 166px;
+	background-image:url(../img/nm1.jpg);
+	border-color: rgb(153,153,153);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+}
+#corpo{
+	position: absolute;
+    width: 100%;
+    height: 564px;
+    top: 168px;
+    left: 1px;
+    background-image:url(../img/nm1.jpg);
+    border-color: rgb(153,153,153);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+}
+#rodape{
+	position: relative;
+    width: 100%;
+    height: 200px;
+    top: 733px;
+    left: 1px;
+    background-image:url(../img/nm1.jpg);
+}
+.quadroTexto1 {
+    position: relative;
+    width: 650px;
+    height: 96px;
+    top: 8px;
+    left: 187px;
+    background: pink;
+    border-color: rgb(153,153,153);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+   background-image:url(../img/img2.jpg); 
+}
+
+.quadroTexto2{
+    position: relative;
+    width: 645px;
+    height: 129px;
+    top: 73px;
+    left: 155px;
+    background: red;
+}
+.quadroTexto3{
+	position: relative;
+    width: 645px;
+    height: 129px;
+    top:90px;
+    left: 155px;
+    background: red;
+}
+.quadroTexto4{
+	position: relative;
+    width: 645px;
+    height: 129px;
+    top:108px;
+    left: 155px;
+    background: red;
+    
+}
+.linkCategoria{
+    position: absolute;
+    width: 17px;
+    height: 15px;
+    left: 252px;
+    top: 34x;
+    margin-top: 3px;
+    font-size: 40px;
+    cursor: pointer;
+    color:black;
+}
+.linkSubCategoria{
+    position: absolute;
+    width: 17px;
+    height: 15px;
+    left: 252px;
+    top: 34x;
+    margin-top: 15px;
+    font-size: 40px;
+    cursor: pointer;
+    color:black;
+}
+.linkNome{
+    position: absolute;
+    width: 17px;
+    height: 15px;
+    left: 252px;
+    top: 34x;
+    margin-top:15px;
+    font-size: 40px;
+    cursor: pointer;
+    color:black;
+}
+#administrar{
+    position: absolute;
+    width: 17px;
+    height: 15px;
+    top: 8px;
+    left: 187px;
+    margin-top:-10px;
+    font-size: 40px;
+    color:black;
+}
